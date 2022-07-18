@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  padding: 100px;
+}
+
+.comment {
+  border: solid lightgray;
+  padding: 10px;
+  background-color: lightblue;
 }
 
 .App-logo {
