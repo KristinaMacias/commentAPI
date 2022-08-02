@@ -13,6 +13,7 @@ export default class CommentsList extends React.Component {
   componentDidMount() {
     //componentDidMount is a lifecycle method that is called after the component is rendered for the first time
     this.fetchComments(); //fetch comments when the component is mounted
+    this.setState({}); //can i call set state twice? <----google later
   }
 
   //import the commentAPI object and call get method on it

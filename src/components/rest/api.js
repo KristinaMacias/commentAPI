@@ -21,7 +21,7 @@ class CommentApi {
         headers: {
           "Content-Type": "application/json", //setting the content type to json because that's what my api uses
         },
-        body: JSON.stringify(comment), //converting the comment to json
+        body: JSON.stringify({ comment: comment.comment }), //converting the comment to json
       });
       return await response.json(); //returning the json response from the api
     } catch (error) {

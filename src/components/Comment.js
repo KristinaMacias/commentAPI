@@ -3,7 +3,6 @@ import { commentAPI } from "./rest/api";
 
 export const Comment = (props) => {
   const { comment } = props; //destructuring the props to get the comment
-  //comment is the comment object from the api.
 
   //delete the comment from the api
   const handleDelete = async () => {
